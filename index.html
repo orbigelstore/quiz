@@ -1,0 +1,213 @@
+<!DOCTYPE html><html lang="pt-br"><!-- Mirrored from recentessnoticias.online/orbi/quiz/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Sep 2024 04:21:11 GMT --><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <link rel="icon" href="favico.html" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="favico.html">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <title>OrbiGel</title>
+
+    <script>
+        function onLoad() {
+            var links = document.getElementsByTagName("a");
+
+            for (var i = 0, n = links.length; i < n; i++) {
+            if (links[i].href.includes("#")) {
+                continue;
+            }
+
+            var href =
+                links[i].href.trim() +
+                (links[i].href.indexOf("?") > 0 ? "&" : "?") +
+                document.location.search.replace("?", "").toString();
+            links[i].href = href;
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", onLoad);
+    </script>
+
+</head>
+<body>
+
+
+
+
+    <nav class="navbar" style="padding-top: 15px; margin-bottom: 5px;">
+        <div class="menu-icon" style="padding-left: 3%;">
+            <img src="images/logo_orbi.png" style="height: 5vh;" alt="Logo Central Vivara">
+        </div>
+
+        <div class="logo-central">
+        </div>
+
+        <div class="menu-icon" style="padding-right: 3%;">
+            <span class="material-symbols-outlined" style="font-size: 30px; padding-right: 10px; color: black">menu</span>
+        </div>
+    </nav>
+    
+
+    <div class="pergunta"> 
+
+        <!--------------------- Barra de progresso --------------------->
+
+        <div style="padding-bottom: 20px;"></div>
+
+        <div id="respondaeganhe" class="respondaeganhe">
+            <p style="font-family: 'GellixSemiBold';">Responda e ganhe até 80% OFF!</p>
+        </div>
+
+        <div id="barradeprogresso" class="container" style="padding-bottom: 5px;">
+            <div class="progress-bar-container">
+                <div class="progress-bar">
+                    <div class="progress" id="progress"></div>
+                </div>
+                <div class="progress-text" id="progress-text">20%</div>
+            </div>
+        </div>
+
+
+        <!--------------------- Pergunta 1 --------------------->
+
+        <div id="p1">
+
+            <img src="images/quiz_4.png" style="width: 90%; display: flex; margin: 0 auto; border-radius: 15px;">
+
+            <p class="pergunta_title">O que você acha dos valores que estão cobrando nessas arminhas?</p>
+
+            <ul class="quiz-options">
+                <li><button>Eu acho caro</button></li>
+                <li><button>Eu acho justo</button></li>
+                <li><button>Eu acho barato</button></li>
+                <li><button>Eu acho muito barato</button></li>
+            </ul>
+
+        </div>
+
+        <!--------------------- Pergunta 2 --------------------->
+
+        <div id="p2" style="display: none">
+            <img src="images/quiz_5.png" style="width: 90%; display: flex; margin: 0 auto; border-radius: 15px;">
+            <p class="pergunta_title">Você acha divertido brincar com essas arminhas de brinquedo?</p>
+            <ul class="quiz-options">
+                <li><button>Sim, adoro brincar!</button></li>
+                <li><button>Mais ou menos!</button></li>
+                <li><button>Gostava quando era novo.</button></li>
+                <li><button>Não, não acho divertido!</button></li>
+            </ul>
+        </div>
+
+        <!--------------------- Pergunta 3 --------------------->
+
+        <div id="p3" style="display: none">
+            <img src="images/quiz_6.png" style="width: 90%; display: flex; margin: 0 auto; border-radius: 15px;">
+            <p class="pergunta_title">Você conhece alguém que possui uma arminha de gel dessas</p>
+            <ul class="quiz-options">
+                <li><button>Sim, conheço familiares</button></li>
+                <li><button>Já vídeos sobre a arminha</button></li>
+                <li><button>Eu tenho uma em casa</button></li>
+                <li><button>Nunca ouvi falar!</button></li>
+            </ul>
+        </div>
+
+        <!--------------------- Pergunta 4 --------------------->
+
+        <div id="p4" style="display: none">
+            <img src="images/quiz_2.png" style="width: 90%; display: flex; margin: 0 auto; border-radius: 15px;">
+            <p class="pergunta_title">Você ja possui alguma arminha de gel dessas?</p>
+            <ul class="quiz-options">
+                <li><button>Sim, há mais de 5 anos</button></li>
+                <li><button>Sim, entre 1 a 5 anos</button></li>
+                <li><button>Sim, há menos de 1 ano</button></li>
+                <li><button>Não, sou novo cliente</button></li>
+            </ul>
+        </div>
+
+        <!--------------------- Pergunta 5 --------------------->
+
+        <div id="p5" style="display: none">
+            <img src="images/quiz_7.png" style="width: 90%; display: flex; margin: 0 auto; border-radius: 15px;">
+            <p class="pergunta_title">Por onde você conheceu esse brinquedo?</p>
+            <ul class="quiz-options">
+                <li><button>Pelo instagram</button></li>
+                <li><button>Pelo tiktok</button></li>
+                <li><button>Pelo Facebook</button></li>
+                <li><button>Outro lugar</button></li>
+            </ul>
+        </div>
+
+
+
+
+        <!--------------------- Receber de Graça --------------------->
+
+        <div id="p6" style="display: none">
+        <div class="respondaeganhe">
+            <p style="font-family: 'GellixSemiBold';">Parabéns!</p>
+        </div>
+
+          <img src="images/final_ganhou.png" style="width: 90%; display: flex; margin: 0 auto; border-radius: 15px;">
+          
+
+          <p style="padding: 25px;">
+            Como forma de agradecimento, você ganhou <strong>Uma SUPER OFERTA podendo escolher 1 produto com até 80% OFF da "OrbiGel"!</strong>
+
+            <br><br>
+            Esperamos que você aproveite ao máximo as suas arminhas de gel e que eles tragam ainda mais diversão para você e sua família.
+            <br><br>
+            Com carinho,<br>
+            Equipe OrbiGel com Mercado Livre! 
+          </p>
+      </div>
+
+
+
+
+
+        <!--------------------- Botão de seguir --------------------->
+    
+        <div class="question-container">
+                <div class="question" id="question1" style="display:none;"></div>
+                <div class="question" id="question2" style="display:none;"></div>
+                <div class="question" id="question3" style="display:none;"></div>
+                <div class="question" id="question4" style="display:none;"></div>
+                <div class="question" id="question5" style="display:none;"></div>
+                <div class="question" id="question6" style="display:none;"></div>
+        </div>
+
+        <div style="padding-bottom: 10px;"></div>
+    
+        <button class="next-button" id="next-button" onclick="nextQuestion()">Próximo</button>
+        
+        <div style="padding-bottom: 20px;"></div>
+
+        
+    </div>
+
+    
+
+
+    <script src="js/scripts.js"></script>
+
+
+
+
+    <script>
+        document.querySelectorAll('.quiz-options button').forEach(button => {
+            button.addEventListener('click', () => {
+                document.querySelectorAll('.quiz-options button').forEach(btn => btn.style.borderColor = '#ccc');
+                button.style.borderColor = '#00CCFF';
+                button.style.backgroundColor = '#DBE2FF';
+            });
+        });
+    </script>
+
+
+
+
+
+
+</body><!-- Mirrored from recentessnoticias.online/orbi/quiz/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Sep 2024 04:21:14 GMT --></html>
